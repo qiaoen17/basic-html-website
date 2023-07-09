@@ -1,0 +1,69 @@
+/* Add padding and margin to body*/
+body {
+    padding: 5vw 10vw;
+    margin: 5vw;
+}
+
+/* header add background color and background image and some padding */
+header {
+    display: block;
+    background-color:#95C5EC;
+    background-image: url('images/flywheel.jpg');
+    padding: 5vw;
+    text-align: center;
+}
+
+/* links in navigation style with display, margin, border-radius, text-decoration, and padding*/
+nav > a {
+    display: inline;
+    padding: 1%;
+    border-radius: 2%;
+    margin: 2%;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: #FDFDFD;
+}
+
+nav > a:focus {
+    background-image: linear-gradient(#FDFDFD 0%, #afafaf 100%);
+}
+
+/* link to current page styled differently*/
+nav > a:active {
+    background-image: linear-gradient(#FDFDFD 0%, #afafaf 100%);
+    border-style: dotted;
+}
+
+/* sections next to each other */
+section {
+    display: inline-block;
+    margin: 5%;
+    width: 33%;
+    background-image: -moz-linear-gradient(#95C5EC 50%, #3173a8 100%);
+    background-image: -webkit-linear-gradient(#95C5EC 50%, #3173a8 100%);
+    background-image: linear-gradient(#95C5EC 50%, #3173a8 100%);
+    padding: 5%;
+    margin: 1%;
+}
+
+img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: #000000;
+}
+
+footer {
+    clear:both;
+}
+
+
+
+
+
+
+
+
