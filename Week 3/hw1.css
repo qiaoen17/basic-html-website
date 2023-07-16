@@ -1,4 +1,3 @@
-/* Add padding and margin to body */
 body {
     padding: 1% 1%;
     margin: 1%;
@@ -38,7 +37,6 @@ aside, section {
     display: inline;
 }
 
-/* absolute property elements ignore float, 100vh makes aside take up full width */
 aside.left {
     background-color: #87b1d4;
     float: left;
@@ -58,7 +56,53 @@ aside img {
     border-color: #000000;
 }
 
+section {
+    clear:both;
+}
 
+table {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 60vw;
+    height: 75vh;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+table tr:nth-child(odd) {
+    background-color: #c4a683;
+    opacity: 0.6;
+}
+
+table tr:nth-child(even) {
+    background-color: #997f60;
+    opacity: 0.6;
+}
+
+table tr {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+table tr:first-child {
+    background-color: #FFE4C4;
+    opacity: 1;
+}
+
+table tr:first-child > th {
+    color: #FDFDFD;
+    text-shadow: #000000 2px 2px;
+}
+
+table tr:first-child > th:first-child {
+    text-align: left;
+}
+
+table tr:hover {
+    opacity: 1;
+}
 
 
 
