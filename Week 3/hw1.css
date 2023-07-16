@@ -87,7 +87,6 @@ table tr {
 }
 
 table tr:first-child {
-    background-color: #FFE4C4;
     opacity: 1;
 }
 
@@ -102,7 +101,11 @@ table tr:first-child > th:first-child {
 
 th {
     padding: 2%;
+    border: 1%;
+    background-color: #FFE4C4;
 }
+
+
 
 td {
     color: #000000;
@@ -110,6 +113,12 @@ td {
     text-align: center;
     padding: 2%;
 }
+
+td:nth-child(1) {
+    text-align: left;
+}
+
+
 
 table tr:hover {
     opacity: 1;
