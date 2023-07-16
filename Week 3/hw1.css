@@ -100,6 +100,17 @@ table tr:first-child > th:first-child {
     text-align: left;
 }
 
+th {
+    padding: 2%;
+}
+
+td {
+    color: #000000;
+    text-shadow: #FDFDFD 1px 1px;
+    text-align: center;
+    padding: 2%;
+}
+
 table tr:hover {
     opacity: 1;
 }
